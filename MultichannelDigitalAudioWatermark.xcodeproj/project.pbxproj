@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63A4644C29A2F4290070295C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4644B29A2F4290070295C /* main.c */; };
+		63A4646329A2F45A0070295C /* dekoboko_search.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4645329A2F4590070295C /* dekoboko_search.c */; };
+		63A4646429A2F45A0070295C /* view_gnuplot.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4645629A2F4590070295C /* view_gnuplot.c */; };
+		63A4646529A2F45A0070295C /* my_str.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4645A29A2F4590070295C /* my_str.c */; };
+		63A4646629A2F45A0070295C /* prime_stereo_watermark.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4645B29A2F4590070295C /* prime_stereo_watermark.c */; };
+		63A4646729A2F45A0070295C /* data_tools.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4645D29A2F4590070295C /* data_tools.c */; };
+		63A4646829A2F45A0070295C /* audio_watermark_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4645E29A2F45A0070295C /* audio_watermark_functions.c */; };
+		63A4646929A2F45A0070295C /* view.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4646029A2F45A0070295C /* view.c */; };
+		63A4646B29A2F45A0070295C /* Test.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4646229A2F45A0070295C /* Test.c */; };
+		63A4646E29A2F5C80070295C /* multichannel_communication_watermark.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4646D29A2F5C80070295C /* multichannel_communication_watermark.c */; };
+		63A4647029A2F8BC0070295C /* stereo_hybrid_watermark.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A4646F29A2F8BC0070295C /* stereo_hybrid_watermark.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63A4644629A2F4290070295C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63A4644829A2F4290070295C /* MultichannelDigitalAudioWatermark */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MultichannelDigitalAudioWatermark; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A4644B29A2F4290070295C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		63A4645229A2F4590070295C /* data_tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_tools.h; sourceTree = "<group>"; };
+		63A4645329A2F4590070295C /* dekoboko_search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dekoboko_search.c; sourceTree = "<group>"; };
+		63A4645429A2F4590070295C /* my_str.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_str.h; sourceTree = "<group>"; };
+		63A4645529A2F4590070295C /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		63A4645629A2F4590070295C /* view_gnuplot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = view_gnuplot.c; sourceTree = "<group>"; };
+		63A4645729A2F4590070295C /* view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view.h; sourceTree = "<group>"; };
+		63A4645829A2F4590070295C /* dekoboko_search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dekoboko_search.h; sourceTree = "<group>"; };
+		63A4645929A2F4590070295C /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		63A4645A29A2F4590070295C /* my_str.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = my_str.c; sourceTree = "<group>"; };
+		63A4645B29A2F4590070295C /* prime_stereo_watermark.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prime_stereo_watermark.c; sourceTree = "<group>"; };
+		63A4645C29A2F4590070295C /* audio_watermark_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_watermark_functions.h; sourceTree = "<group>"; };
+		63A4645D29A2F4590070295C /* data_tools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = data_tools.c; sourceTree = "<group>"; };
+		63A4645E29A2F45A0070295C /* audio_watermark_functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = audio_watermark_functions.c; sourceTree = "<group>"; };
+		63A4645F29A2F45A0070295C /* view_gnuplot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view_gnuplot.h; sourceTree = "<group>"; };
+		63A4646029A2F45A0070295C /* view.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = view.c; sourceTree = "<group>"; };
+		63A4646229A2F45A0070295C /* Test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Test.c; sourceTree = "<group>"; };
+		63A4646D29A2F5C80070295C /* multichannel_communication_watermark.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = multichannel_communication_watermark.c; sourceTree = "<group>"; };
+		63A4646F29A2F8BC0070295C /* stereo_hybrid_watermark.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stereo_hybrid_watermark.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A4644529A2F4290070295C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63A4643F29A2F4290070295C = {
+			isa = PBXGroup;
+			children = (
+				63A4644A29A2F4290070295C /* MultichannelDigitalAudioWatermark */,
+				63A4644929A2F4290070295C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63A4644929A2F4290070295C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A4644829A2F4290070295C /* MultichannelDigitalAudioWatermark */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A4644A29A2F4290070295C /* MultichannelDigitalAudioWatermark */ = {
+			isa = PBXGroup;
+			children = (
+				63A4644B29A2F4290070295C /* main.c */,
+				63A4645D29A2F4590070295C /* data_tools.c */,
+				63A4645229A2F4590070295C /* data_tools.h */,
+				63A4645329A2F4590070295C /* dekoboko_search.c */,
+				63A4645829A2F4590070295C /* dekoboko_search.h */,
+				63A4645A29A2F4590070295C /* my_str.c */,
+				63A4645429A2F4590070295C /* my_str.h */,
+				63A4646229A2F45A0070295C /* Test.c */,
+				63A4645929A2F4590070295C /* Test.h */,
+				63A4645529A2F4590070295C /* Header.h */,
+				63A4645C29A2F4590070295C /* audio_watermark_functions.h */,
+				63A4645E29A2F45A0070295C /* audio_watermark_functions.c */,
+				63A4646C29A2F5200070295C /* audio_watermark_methods */,
+				63A4645629A2F4590070295C /* view_gnuplot.c */,
+				63A4645F29A2F45A0070295C /* view_gnuplot.h */,
+				63A4646029A2F45A0070295C /* view.c */,
+				63A4645729A2F4590070295C /* view.h */,
+			);
+			path = MultichannelDigitalAudioWatermark;
+			sourceTree = "<group>";
+		};
+		63A4646C29A2F5200070295C /* audio_watermark_methods */ = {
+			isa = PBXGroup;
+			children = (
+				63A4645B29A2F4590070295C /* prime_stereo_watermark.c */,
+				63A4646F29A2F8BC0070295C /* stereo_hybrid_watermark.c */,
+				63A4646D29A2F5C80070295C /* multichannel_communication_watermark.c */,
+			);
+			path = audio_watermark_methods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A4644729A2F4290070295C /* MultichannelDigitalAudioWatermark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A4644F29A2F4290070295C /* Build configuration list for PBXNativeTarget "MultichannelDigitalAudioWatermark" */;
+			buildPhases = (
+				63A4644429A2F4290070295C /* Sources */,
+				63A4644529A2F4290070295C /* Frameworks */,
+				63A4644629A2F4290070295C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultichannelDigitalAudioWatermark;
+			productName = MultichannelDigitalAudioWatermark;
+			productReference = 63A4644829A2F4290070295C /* MultichannelDigitalAudioWatermark */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A4644029A2F4290070295C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					63A4644729A2F4290070295C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 63A4644329A2F4290070295C /* Build configuration list for PBXProject "MultichannelDigitalAudioWatermark" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A4643F29A2F4290070295C;
+			productRefGroup = 63A4644929A2F4290070295C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A4644729A2F4290070295C /* MultichannelDigitalAudioWatermark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A4644429A2F4290070295C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A4646829A2F45A0070295C /* audio_watermark_functions.c in Sources */,
+				63A4644C29A2F4290070295C /* main.c in Sources */,
+				63A4646929A2F45A0070295C /* view.c in Sources */,
+				63A4646429A2F45A0070295C /* view_gnuplot.c in Sources */,
+				63A4646E29A2F5C80070295C /* multichannel_communication_watermark.c in Sources */,
+				63A4646B29A2F45A0070295C /* Test.c in Sources */,
+				63A4647029A2F8BC0070295C /* stereo_hybrid_watermark.c in Sources */,
+				63A4646329A2F45A0070295C /* dekoboko_search.c in Sources */,
+				63A4646629A2F45A0070295C /* prime_stereo_watermark.c in Sources */,
+				63A4646529A2F45A0070295C /* my_str.c in Sources */,
+				63A4646729A2F45A0070295C /* data_tools.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63A4644D29A2F4290070295C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63A4644E29A2F4290070295C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		63A4645029A2F4290070295C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92ACM6N963;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63A4645129A2F4290070295C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92ACM6N963;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A4644329A2F4290070295C /* Build configuration list for PBXProject "MultichannelDigitalAudioWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A4644D29A2F4290070295C /* Debug */,
+				63A4644E29A2F4290070295C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A4644F29A2F4290070295C /* Build configuration list for PBXNativeTarget "MultichannelDigitalAudioWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A4645029A2F4290070295C /* Debug */,
+				63A4645129A2F4290070295C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63A4644029A2F4290070295C /* Project object */;
+}
